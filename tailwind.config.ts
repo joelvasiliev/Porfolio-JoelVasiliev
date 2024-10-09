@@ -1,10 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-const colors = require("tailwindcss/colors");
-module.exports = {
+import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors";
+
+const config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{ts,tsx,js,jsx}", // Inclui também JS/JSX se houver
+    "./app/**/*.{ts,tsx,js,jsx}", // Inclua a pasta app se estiver fora de src
+    "./components/**/*.{ts,tsx,js,jsx}",
+    "./public/**/*.html", // Inclui arquivos HTML do public
   ],
   theme: {
     extend: {
@@ -21,4 +23,6 @@ module.exports = {
     },
   },
   plugins: [],
-};
+} satisfies Config;
+
+export default config;

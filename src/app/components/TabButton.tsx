@@ -6,7 +6,9 @@ const variants = {
   active: { width: "calc(100% - 0.75rem)" },
 };
 
-const TabButton = ({ active, selectTab, children }) => {
+const TabButton = ({ active, selectTab, children }:
+  { active: boolean, selectTab: any, children: React.ReactNode }
+) => {
   const buttonClasses = active ? "text-white" : "text-[#ADB7BE]";
 
   return (
