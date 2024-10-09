@@ -2,12 +2,7 @@ import type { Config } from "tailwindcss";
 import colors from "tailwindcss/colors";
 
 const config = {
-  content: [
-    "./src/**/*.{ts,tsx,js,jsx}", // Inclui também JS/JSX se houver
-    "./app/**/*.{ts,tsx,js,jsx}", // Inclua a pasta app se estiver fora de src
-    "./components/**/*.{ts,tsx,js,jsx}",
-    "./public/**/*.html", // Inclui arquivos HTML do public
-  ],
+  content: ["./src/**/*.{ts,tsx,js,jsx}"],
   theme: {
     extend: {
       backgroundImage: {
