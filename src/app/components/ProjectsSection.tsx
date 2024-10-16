@@ -14,6 +14,16 @@ const projectsData = [
     gitUrl: "/",
     disableGithub: true,
     previewUrl: "https://dev.jetup.travel/",
+  },
+  {
+    id: 2,
+    title: "Landing Page Exclusive",
+    description: "Landing page para venda de produtos",
+    image: "/images/projects/2.png",
+    tag: ["Todos", "Web", "LandingPage"],
+    gitUrl: "https://github.com/joelvasiliev/landing-page",
+    disableGithub: false,
+    previewUrl: "https://landing-page-zeta-orpin-88.vercel.app/",
   }
 ];
 
@@ -36,7 +46,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section className="mb-10" id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Meus Projetos
       </h2>
@@ -50,6 +60,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="LandingPage"
+          isSelected={tag === "LandingPage"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
