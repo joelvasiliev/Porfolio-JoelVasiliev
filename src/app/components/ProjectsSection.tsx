@@ -34,7 +34,27 @@ const projectsData = [
     gitUrl: "https://github.com/joelvasiliev/estoques",
     disableGithub: false,
     previewUrl: "https://estoques-vmq5.vercel.app/",
-  }
+  },
+  {
+    id: 4,
+    title: "Atency",
+    description: "Automatize, escale e personalize suas interações no WhatsApp com nossa poderosa ferramenta de IA.",
+    image: "/images/projects/4.png",
+    tag: ["Todos", "Web", "Chatbot"],
+    gitUrl: "/",
+    disableGithub: true,
+    previewUrl: "https://estoques-vmq5.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Chatbots + Landing Page",
+    description: "Landing page dos meus serviços de criação de chatbot.",
+    image: "/images/projects/5.png",
+    tag: ["Todos", "Web", "Chatbot", "Landing Page"],
+    gitUrl: "/",
+    disableGithub: true,
+    previewUrl: "https://chatbots-landing-page.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -75,6 +95,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Landing Page"
           isSelected={tag === "Landing Page"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Chatbot"
+          isSelected={tag === "Chatbot"}
         />
         <ProjectTag
           onClick={handleTagChange}
