@@ -33,7 +33,7 @@ const projectsData = [
     tag: ["Todos", "Web", "SAAS"],
     gitUrl: "https://github.com/joelvasiliev/estoques",
     disableGithub: false,
-    previewUrl: "https://estoques-vmq5.vercel.app/",
+    previewUrl: "https://estoques.vercel.app/",
   },
   {
     id: 4,
