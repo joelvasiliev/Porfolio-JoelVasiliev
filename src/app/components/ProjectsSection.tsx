@@ -33,7 +33,7 @@ const projectsData = [
     tag: ["Todos", "Web", "SAAS"],
     gitUrl: "https://github.com/joelvasiliev/estoques",
     disableGithub: false,
-    previewUrl: "https://landing-page-zeta-orpin-88.vercel.app/",
+    previewUrl: "https://estoques-vmq5.vercel.app/",
   }
 ];
 
