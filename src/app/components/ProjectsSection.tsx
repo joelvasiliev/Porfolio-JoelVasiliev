@@ -20,8 +20,18 @@ const projectsData = [
     title: "Landing Page Exclusive",
     description: "Landing page para venda de produtos",
     image: "/images/projects/2.png",
-    tag: ["Todos", "Web", "LandingPage"],
+    tag: ["Todos", "Web", "Landing Page"],
     gitUrl: "https://github.com/joelvasiliev/landing-page",
+    disableGithub: false,
+    previewUrl: "https://landing-page-zeta-orpin-88.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Plataforma Estoque e Pedidos",
+    description: "[Em desenvolvimento] Plataforma para controle de estoques, pedidos, gráficos de vendas, lucros, relatórios, etc.",
+    image: "/images/projects/3.png",
+    tag: ["Todos", "Web", "SAAS"],
+    gitUrl: "https://github.com/joelvasiliev/estoques",
     disableGithub: false,
     previewUrl: "https://landing-page-zeta-orpin-88.vercel.app/",
   }
@@ -63,8 +73,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="LandingPage"
-          isSelected={tag === "LandingPage"}
+          name="Landing Page"
+          isSelected={tag === "Landing Page"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="SAAS"
+          isSelected={tag === "SAAS"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
