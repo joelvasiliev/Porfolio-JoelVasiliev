@@ -55,6 +55,16 @@ const projectsData = [
     disableGithub: true,
     previewUrl: "https://chatbots-landing-page.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Chatbots + Landing Page",
+    description: "Landing page dos meus serviços de criação de chatbot.",
+    image: "/images/projects/6.gif",
+    tag: ["Todos", "Mobile", "SAAS", "Web"],
+    gitUrl: "/",
+    disableGithub: true,
+    previewUrl: "https://rota-ideal.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
