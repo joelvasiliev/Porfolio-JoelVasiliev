@@ -16,6 +16,16 @@ const projectsData = [
     previewUrl: "https://jetup.travel/",
   },
   {
+    id: 7,
+    title: "Dashboard para controle de vendas",
+    description: "Um dashboard onde mostra vendas e tem atualizações dos status de acordo com dados dos correios, também conta com um sistema de afiliados, onde existem vários níveis de permissões e visualizações específicas para cada cargo.",
+    image: "/images/projects/7.gif",
+    tag: ["Todos", "SAAS", "Web"],
+    gitUrl: "/",
+    disableGithub: true,
+    previewUrl: "http://46.202.150.78/",
+  },
+  {
     id: 2,
     title: "Landing Page Exclusive",
     description: "Landing page para venda de produtos",
@@ -57,23 +67,13 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Chatbots + Landing Page",
-    description: "Landing page dos meus serviços de criação de chatbot.",
+    title: "Rota Ideal",
+    description: "Um projeto com inteligência artificial para decidir o melhor trajeto baseado nos endereços enviados, visando otimizar o percurso.",
     image: "/images/projects/6.gif",
     tag: ["Todos", "Mobile", "SAAS", "Web"],
     gitUrl: "/",
     disableGithub: true,
     previewUrl: "https://rota-ideal.vercel.app/",
-  },
-  {
-    id: 7,
-    title: "Dashboard para controle de vendas",
-    description: "Um dashboard onde mostra vendas e tem atualizações dos status de acordo com dados dos correios, também conta com um sistema de afiliados, onde existem vários níveis de permissões e visualizações específicas para cada cargo.",
-    image: "/images/projects/6.gif",
-    tag: ["Todos", "SAAS", "Web"],
-    gitUrl: "/",
-    disableGithub: true,
-    previewUrl: "http://46.202.150.78/",
   },
 ];
 
