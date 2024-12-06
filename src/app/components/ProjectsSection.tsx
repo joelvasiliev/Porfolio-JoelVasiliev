@@ -33,7 +33,7 @@ const projectsData = [
     tag: ["Todos", "Web", "SAAS"],
     gitUrl: "https://github.com/joelvasiliev/estoques",
     disableGithub: false,
-    previewUrl: "https://estoques.vercel.app/",
+    previewUrl: "https://estoques.vercel.app/painel",
   },
   {
     id: 4,
@@ -64,6 +64,16 @@ const projectsData = [
     gitUrl: "/",
     disableGithub: true,
     previewUrl: "https://rota-ideal.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Dashboard para controle de vendas",
+    description: "Um dashboard onde mostra vendas e tem atualizações dos status de acordo com dados dos correios, também conta com um sistema de afiliados, onde existem vários níveis de permissões e visualizações específicas para cada cargo.",
+    image: "/images/projects/6.gif",
+    tag: ["Todos", "SAAS", "Web"],
+    gitUrl: "/",
+    disableGithub: true,
+    previewUrl: "http://46.202.150.78/",
   },
 ];
 
