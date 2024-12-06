@@ -13,7 +13,7 @@ const projectsData = [
     tag: ["Todos", "Web"],
     gitUrl: "/",
     disableGithub: true,
-    previewUrl: "https://dev.jetup.travel/",
+    previewUrl: "https://jetup.travel/",
   },
   {
     id: 2,
